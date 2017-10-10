@@ -1,0 +1,91 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: serif;
+}
+html,body{
+    background-color: #5AD880;
+}
+h1{
+    font-family: 'Exo', 'Arial', 'Helvetica', sans-serif;
+    font-size: 3.998rem;
+    padding:1rem 2rem;
+    color: #B85B5A;
+}
+h2{
+    font-family: 'Exo', 'Arial', 'Helvetica', sans-serif;
+    font-size: 2.827rem;
+    padding:1rem 2rem;
+    color:#B85B5A;
+}
+nav ul{
+    padding:1rem 0;
+}
+nav li{
+    font-size: 1.999rem;
+    list-style-type: none;
+}
+nav li>a{
+    font-family: 'Exo', 'Arial', 'Helvetica', sans-serif;
+    display: block;
+    text-decoration: none;
+    border-bottom: 0.2rem solid #B85B5A;
+    padding: 0.2rem 2rem;
+    color: #B85B5A;
+}
+nav li>a:hover,
+nav li>a:active{
+    color: red;
+}
+p{
+    font-family: 'IM Fell DW Pica SC', 'Arial', 'Helvetica', sans-serif;
+    font-size: 1.5rem;
+    padding:0.5rem 2rem;
+    color: white;
+}
+.object {
+  max-height: 500px;
+  width: 65%;
+  object-fit: cover; /*magic by cesar*/
+}
+
+
+
+main p:last-child{
+    padding-bottom: 4rem;
+}
+.wrapper{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #6B0100;
+}
+header{
+    width:100%;
+    border-bottom: 1rem solid #00AE20;
+}
+nav{
+    float:left;
+    width: 38.2%;
+}
+main{
+    float:right;
+    width: 61.8%;
+}
+footer{
+    clear:both;
+    width: 100%;
+    border-top: 0.5rem solid #00AE20;
+}
+footer p{
+    font-size: 1rem;
+    padding: 2rem;
+    color: #00F74A;
+}
